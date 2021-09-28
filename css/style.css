@@ -1,0 +1,549 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+}
+
+table{
+    width: 100%;
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-around;
+}
+tr{
+    width: 100%;
+    display: flex;
+    margin: 0 auto;
+    text-align: center;
+}
+td{
+    border: 1px solid white;
+    width: 200px;
+    height: 100px;
+    padding: 15px;
+    font-size: 16px;
+    color: white;
+}
+
+header{
+    width: 100%;
+    height: 150px;
+    background: white;
+    display: flex;
+    padding: 30px 0;
+}
+header >ul{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+}
+header > ul>li{
+   margin-right: 5rem; 
+}
+header > ul>li>a{
+    color: rgb(226, 113, 38);
+    font-size: 24px;
+ }
+ header > ul>li>a:hover{
+    margin-bottom: 1px;
+    border-bottom: 1px solid rgb(226, 113, 38);
+    color: rgb(226, 113, 38);
+ }
+ header > img{
+    display: block;
+    height: 65%;
+    width: 10%;
+    margin: 0 auto;
+}
+main{
+    height: 100%;
+    width: 100%;
+}
+.first-screen{
+    display: block;
+    padding: 50px 0;
+    height: 100%;
+    background: url(../img/aircrafts/96-963589_airbus-a320-wallpaper-airbus-a320-wallpaper-hd.jpg) center center/cover no-repeat;
+}
+h1{
+    text-align: center;
+    color: white;
+    font-size: 45px;
+}
+.first-screen> p{
+    text-align: center;
+    color: white;
+    margin-top: 5%;
+    font-size: 24px;
+}
+.first-screen> h2{
+    text-align: center;
+    color: white;
+    margin: 30px 0;
+    font-size: 35px;
+}
+.first-screen> ul{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: space-around;
+}
+.first-screen> ul> li{
+    color: white;
+    font-size: 24px;
+    width: 25%;
+    height: 200px;
+    padding: 50px;
+    border-radius: 25px;
+    display: block;
+    margin-bottom: 1rem;
+}
+.first-screen> ul> .principle1{
+    background: url(../img/plan-road-trip-tips-ideas.jpg) center center/cover no-repeat;
+}
+.first-screen> ul> .principle2{
+    background: url(../img/road-trip1.jpg) center center/cover no-repeat;
+}
+.first-screen> ul> .principle3{
+    background: url(../img/Road-Trip.jpg) center center/cover no-repeat;
+}
+.first-screen > form{
+    display: flex;
+    padding-top: 5%;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: flex-start;
+}
+.first-screen > form> input{
+    width: 250px;
+    height: 40px;
+    margin-right: 0.5rem;
+    border-radius: 20px;
+    border: white;
+}
+.first-screen > form> input::placeholder{
+    text-align: center;
+    color: #a1a1a1;
+}
+.first-screen > form> input:last-of-type{
+    background: rgb(226, 113, 38);
+    color: white;
+    font-size: 14px;
+}
+.LogInLink{
+    display: flex;
+    font-size: 24px;
+    color: white;
+    margin-top: 2rem;
+    justify-content: space-around;
+}
+.RegLink{
+    display: flex;
+    font-size: 24px;
+    color: white;
+    margin-top: 2rem;
+    justify-content: space-around;
+}
+.BackLink{
+    display: flex;
+    font-size: 24px;
+    color: white;
+    margin-top: 1rem;
+    justify-content: space-around;
+}
+.about{
+    margin: 0 auto;
+    text-align: center;
+    color: white; 
+    font-size: 24px;
+    width: 50%;
+}
+.stock {
+    width: 100%;
+    height: 1200px;
+    background: url(../img/im-196106.jpeg) center center/cover no-repeat;
+    padding: 2rem;
+}
+.stock> a{
+    display: block;
+    text-align: center;
+    margin-top: 1rem;
+    color: white;
+    font-size: 45px;
+}
+.stock> h2{
+    text-align: center;
+    color: white;
+    margin: 30px 0;
+    font-size: 35px;
+}
+.stock > .blocksline{
+    display: flex;
+    height: 50%;
+    margin-bottom: 2rem;
+}
+.stock > .blocksline> .promotion{
+    width: 50%;
+    height: 90%;
+    margin: 1rem;
+    padding: 15px;
+    border-radius: 25px;
+}
+.stock > .blocksline> .promotion1{
+    background: url(../img/promotions/promotion1.jpg) center center/cover no-repeat;
+}
+.stock > .blocksline> .promotion2{
+    background: url(../img/promotions/promotion2.jpg) center center/cover no-repeat;
+}
+.stock > .blocksline> .promotion3{
+    background: url(../img/promotions/promotion3.jpg) center center/cover no-repeat;
+}
+.stock > .blocksline> .promotion4{
+    background: url(../img/promotions/promotion4.jpg) center center/cover no-repeat;
+}
+.stock > .blocksline> .promotion> h3{
+    color: white;
+    text-align: center;
+    font-weight: 700;
+    font-size: 35px;
+    margin-bottom: 15px;
+}
+.stock > .blocksline> .promotion> p{
+    color: white;
+    text-align: center;
+    font-weight: 400;
+    font-size: 24px;
+    width: 75%;
+    margin: 0 auto;
+}
+.stock > .blocksline> .promotion> a{
+    color: white;
+    font-weight: 700;
+    font-size: 24px;
+    display: block;
+    margin-top: 15px;
+    text-align: center;
+}
+.email_form{
+    width: 100%;
+    height: 500px;
+    padding: 250px 0;
+    background: url(../img/197152c818f021a2f4db244ec5328487.jpg) center center/cover no-repeat;
+}
+.email_form > form{
+    display: flex;
+    justify-content: center;
+}
+.email_form > form> input{
+    width: 25%;
+    height: 45px;
+    border-radius: 25px;
+    margin-right: 1rem;
+    border: white;
+}
+.email_form > form> input:last-of-type{
+    background: rgb(226, 113, 38);
+    color: white;
+}
+.email_form > form> input::placeholder{
+    text-align: center;
+}
+footer{
+    background: url(../img/clouds/cloud_064.png) center center/cover no-repeat;
+    height: 130px;
+    display: flex;
+    padding: 50px;
+    justify-content: center;
+}
+footer> .phone{
+    display: flex;
+    margin-right: 7rem;
+    justify-content: center;
+    height: 30px;
+}
+footer> .phone p{
+    color: rgb(189, 82, 10);
+    font-weight: 700;
+    font-size: 24px;
+    margin-right: 5px;
+}
+footer> .phone a{
+    color: rgb(189, 82, 10);
+    font-weight: 700;
+    font-size: 24px;
+}
+footer > a{
+    display: block;
+    height: 30px;
+    color: rgb(189, 82, 10);
+    font-weight: 700;
+    font-size: 24px;
+    margin-right: 3rem;
+} 
+.infoPassanger{
+    display: flex;
+    flex-wrap: nowrap;
+    align-content: space-around;
+    justify-content: center;
+    margin-bottom: 1rem;
+    
+}
+.infoPassanger> input{
+    border: white;
+    margin-right: 0.5rem;
+    border-radius: 25px;
+}
+.infoPassanger> input::placeholder{
+    text-align: center;
+}
+.infoPassanger > button{
+    border: white;
+    padding: 15px;
+    background: red;
+    color: white;
+    font-size: 16px;
+    border-radius: 25px;
+
+}
+
+.infoPassangerForm> a{
+    display: block;
+    text-align: center;    
+    padding: 5px;
+    width: 155px;
+    font-size: 16px;
+    margin-bottom: 1rem;
+    background: red;
+    border-radius: 25px;
+    color: white;
+}
+.infoPassangerForm > button{
+    display: block;
+    width: 90%;
+    margin: 0 auto;
+    background: green;
+    border: white;
+    padding: 5px;
+    font-size: 24px;
+    color: white;
+    border-radius: 25px;
+
+}
+
+
+
+@media screen and (max-width:1346px){
+    footer> .phone{
+    margin-right: 1rem;
+    }
+    footer > a{
+        margin-right: 1rem;
+    }
+}
+
+@media screen and (max-width:1015px){
+    header > ul>li{
+        margin-right: 2rem; 
+     }
+    .first-screen > form{
+        display: block;
+        text-align: center;
+    }
+    .first-screen > form > input{
+        margin-bottom: 0.5rem;
+    }
+    .stock > .blocksline> .promotion> p{
+        font-size: 20px;
+    }
+    footer{
+        display: block;
+        height: 100%;
+    }
+    footer > a{
+        display: flex;
+        justify-content: space-around;
+        height: 30px;
+        color: rgb(189, 82, 10);
+        font-weight: 700;
+        font-size: 24px;
+        margin-right: 3rem;
+    }
+}
+
+@media screen and (max-width:876px){
+    header > ul>li>a{
+        font-size: 20px;
+     }
+    .first-screen > ul>li{
+        font-size: 20px;
+     }
+
+    .first-screen> p{
+        font-size: 20px;
+    }
+    .stock > .blocksline> .promotion> h3{
+        font-size: 24px;
+    }
+    .stock > .blocksline> .promotion> p{
+        font-size: 16px;
+    }
+    .stock > .blocksline> .promotion> a{
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width:700px){
+    .first-screen> ul> li{
+        padding: 25px;
+    }
+}
+
+@media screen and (max-width:590px){
+    header {
+        width: 100%;
+        height: 150px;
+        background: white;
+        display: flex;
+        padding: 30px 0;
+        flex-direction: column;
+    }
+    header > ul>li>a{
+        font-size: 15px;
+    }
+    .first-screen> h1{
+        font-size: 40px;
+    }
+    .first-screen> p{
+        font-size: 18px;
+    }
+    .first-screen> h2{
+        font-size: 25px;
+    }
+    .first-screen> ul> li{
+        width: 50%;
+    }
+    .stock {
+        width: 100%;
+        height: 1000px;
+        background: url(../img/im-196106.jpeg) center center/cover no-repeat;
+        padding: 1rem;
+    }
+    .stock > .blocksline{
+        display: flex;
+        height: 50%;
+        margin-bottom: 0.5rem;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        align-content: space-around;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .stock > .blocksline> .promotion{
+        width: 75%;
+        height: 100%;
+        margin: 0.5rem;
+        padding: 10px;
+        border-radius: 25px;
+    }
+    .stock > .blocksline> .promotion> h3 {
+        color: white;
+        text-align: center;
+        font-weight: 700;
+        font-size: 24px;
+        margin-bottom: 15px;
+    }
+    .stock > .blocksline> .promotion> p {
+        font-size: 14px;
+    }
+    .stock > .blocksline> .promotion> a {
+        color: white;
+        font-weight: 700;
+        font-size: 14px;
+        display: block;
+        margin-top: 15px;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width:467px){
+    header > ul>li {
+        margin-right: 1rem;
+    }
+}
+
+@media screen and (max-width:400px){
+    header > ul>li {
+        margin-right: 0.5rem;
+    }
+    header > ul>li>a {
+        font-size: 13px;
+    }
+
+    .first-screen> h1 {
+        font-size: 30px;
+    }
+
+    .first-screen> p {
+        font-size: 14px;
+    }
+    .stock {
+        width: 100%;
+        height: 1100px;
+        background: url(../img/im-196106.jpeg) center center/cover no-repeat;
+        padding: 1rem;
+    }
+    .stock > .blocksline> .promotion {
+        width: 75%;
+        height: 100%;
+        margin: 0.5rem;
+        padding: 5px;
+        border-radius: 25px;
+    }
+    .stock > .blocksline> .promotion> h3 {
+        font-size: 20px;
+        margin-bottom: 5px;
+    }
+    .stock > .blocksline> .promotion> a {
+        color: white;
+        font-weight: 700;
+        font-size: 14px;
+        display: block;
+        margin-top: 5px;
+        text-align: center;
+    }
+
+    .email_form > form {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        align-items: center;
+    }
+
+    .email_form > form> input {
+        width: 50%;
+        height: 45px;
+        border-radius: 25px;
+        margin-right: 0;
+        margin-bottom: 1rem;
+        border: white;
+    }
+
+    footer> .phone p {
+        font-size: 16px;
+    }
+
+    footer> .phone a {
+        font-size: 16px;
+    }
+
+    footer > a {
+        font-size: 16px;
+        margin-right: 0;
+    }
+}

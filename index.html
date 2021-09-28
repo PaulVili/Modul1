@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Modul1</title>
+</head>
+<body>
+    <header>
+        <img src="img/logo.png" alt="" class="header__Logo test-logo">
+        <ul>
+            <li class="test-0-nav-1"><a href="#stock">Акции</a></li>
+            <li class="test-0-nav-2"><a href="#">Поиск</a></li>
+            <li class="test-0-nav-3"><a href="#">Регистрация на рейс </a></li>
+            <li class="test-0-nav-4"><a href="./LogIn.html">Личный кабинет</a></li>
+        </ul>
+    </header>
+    <main>
+        <section class="first-screen">
+            <h1>ChipFlights</h1>
+            <p>Мы сближаем города, вы - живете там, где хотите.</p>
+            <p class="about">
+                К вам обратилась компания «ChipFlights» - новая и энергичная авиакомпания, предоставляющая услуги пассажирских авиаперевозок небольшими малогабаритными самолетами. Главная цель компании - развить связность между городами России путем организации авиасообщений на непостоянной основе по мере накопления запросов на перелет.
+            </p>
+            <form action="search.html" method="post" id="ticket">
+                <input type="text" name="from" form="ticket" id="test-0-fd " placeholder="Откуда">
+                <input type="text" name="to" form="ticket" id="test-0-fa" placeholder="Куда">
+                <input type=" text" onfocus="this.type='date'" onblur="if(this.value==''){this.type='text'}" name="there" form="ticket" id="test-0-fdt" placeholder="Когда">
+                <input type=" text" onfocus="this.type='date'" onblur="if(this.value==''){this.type='text'}" name="back" form="ticket" id="test-0-fat" placeholder="Обратно">
+                <input type="number" name="number" form="ticket" id="test-0-fnp " placeholder="Количество человек">
+                <input type="submit" value="Найти билеты" name="search_btn" form="ticket" id="test-0-fbs ">
+            </form> 
+            <h2>Основные принципы работы сервиса: </h2>   
+            <ul>
+                <li class="principle1">Выбрать удобную дату перелета.</li>
+                <li class="principle2">Накопить больше 50% бронирований на рейс.</li>
+                <li class="principle3">Получить снижение стоимости.</li>
+            </ul>            
+        </section>
+        <section class="stock" id="stock">
+            <div class="blocksline">
+                <div class="promotion promotion1">
+                    <h3>Returning and Changing Your Tickets</h3>
+                    <p>
+                        The pandemic has changed many travelers’ plans, but we know that it will not last forever. 
+                        Once all of this is over, we will continue exploring this world the way we used to. 
+                        Special rules that have been developed for this challenging situation will help you cancel your trip
+                        or postpone it until later.
+                    </p>
+                    <a href="#">Подробный просмотр акции</a>
+                </div>
+                <div class="promotion promotion2">
+                    <h3>Best offers</h3>
+                    <p>
+                        To see again the streets that witnessed so much. To hug your beloved ones and look back to see
+                        what you’ve come through. And to think of new dreams that will be so special!
+                    </p>
+                    <a href="#">Подробный просмотр акции</a>
+                </div>
+            </div>
+            <div class="blocksline">
+                <div class="promotion promotion3">
+                    <h3>See you more often</h3>
+                    <p>
+                        Since the beginning of January, we have been expanding the geography of flights in Russia so that you can
+                        see your loved ones more often. Choose our company to fly to where you are always expected
+                    </p>
+                    <a href="#">Подробный просмотр акции</a>
+                </div>
+                <div class="promotion promotion4">
+                    <h3>Everything is on again</h3>
+                    <p>
+                        From August 10, we will resume flights to Turkey. Flights from Moscow to Antalya will be operated twice
+                        a day daily, and flights on the Moscow-Dalaman route will be operated three to seven times a week.
+                    </p>
+                    <a href="#">Подробный просмотр акции</a>
+                </div>
+            </div>     
+        </section>
+        <section class="email_form">
+            <form action="#" method="post" id="emailForm">
+                <input type="email" name="email" id="email" placeholder="Введите email">
+                <input type="button" value="Подписаться">
+            </form>            
+        </section>
+    </main>
+    <footer>
+        <div class="phone">
+            <p>Телефон:</p>
+            <a href="tel:+7(800) 800-80-80">8(800) 800-80-80</a>
+        </div>
+        <a href="#">Home</a>
+        <a href="./LogIn.html">Login</a>
+        <a href="./Registration.html">Sign up</a>
+        <a href="#">Contact</a>
+        <a href="#">News</a>
+        <a href="#">Return</a>
+        <a href="#">Feedback</a>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Бронирование</title>
+</head>
+<body>
+    <div class="stock">
+        <a href="search.html">Назад</a>
+        <h1>Бронирование билетов</h1>
+        <h2>Информация о полете</h2>
+        <table>            
+            <tr>
+                <td>Номер рейса</td>
+                <td>Название города вылета  </td>
+                <td>Название аэропорта вылета  </td>
+                <td>Дата вылета  </td>
+                <td>Время вылета   </td>
+                <td>Название города назначения  </td>
+                <td>Время прилета  </td>
+                <td>Стоимость  </td>
+            </tr>
+            <tr>
+                <td>154NMA548</td>
+                <td>Москва</td>
+                <td>Шереметьево</td>
+                <td>14:00</td>
+                <td>Санкт-Петербург</td>
+                <td>Пулково</td>
+                <td>16:00</td>
+                <td>1500 рублей</td>
+
+            </tr>
+        </table>      
+        <h2>Информация о пассажире</h2>        
+        <form action="booking_management.html" method="POST" class="infoPassangerForm">            
+            <div class="infoPassanger">
+                <input type="text" placeholder="Имя">
+                <input type="text" placeholder="Фамилия ">
+                <input type=" text" onfocus="this.type='date'" onblur="if(this.value==''){this.type='text'}" placeholder="Дата рождения">
+                <input type="text" placeholder="Номер документа">
+                <button type="submit">Заполнить</button>                
+            </div> 
+            <a href="#">Добавить пассажира</a>           
+            <button>готово</button>
+        </form>
+        
+    </div>
+</body>
+</html>
